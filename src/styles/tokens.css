@@ -1,0 +1,9 @@
+/* 색 이름을 한 곳에 모으면 전체 화면의 규칙을 일관되게 고칠 수 있습니다. */
+/* 시안 C(Soft Premium): 따뜻한 회색 바탕, 채도를 낮춘 슬레이트 블루 강조색 하나, 원색 없음 */
+:root {
+  --canvas:#F2F2F0; --core:#FAFAF8; --ink:#18181B; --muted:#5E5E62;
+  --line:rgba(24,24,27,.08); --accent:#3B5566; --espresso:#211E1B; --on-dark:#F6F4F0; --on-dark-muted:#A9A49C;
+  --sans:'Pretendard',system-ui,sans-serif; --mono:'JetBrains Mono',ui-monospace,monospace;
+  --ease:cubic-bezier(.32,.72,0,1); --shell:2rem; --core-r:calc(2rem - .375rem);
+  --soft-shadow:0 20px 40px -15px rgba(0,0,0,.06); --space:1.25rem;
+}

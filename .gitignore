@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.vite/
+.env
+.env.*
+!.env.example
+*.local
+
+# 디자인 시안(로컬 보관용)
+drafts/

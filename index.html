@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <!-- 모바일 브라우저가 화면 폭을 기기 폭에 맞춰 읽게 합니다. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yunha Kim — Creator &amp; Developer Portfolio</title>
+  <!-- 글꼴: Pretendard(본문·제목), JetBrains Mono(작은 라벨) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="/src/styles/tokens.css">
+  <link rel="stylesheet" href="/src/styles/layout.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-row">
+      <a class="brand" href="#home">Yunha Kim</a>
+      <button class="menu-button" id="menu-button" aria-expanded="false" aria-controls="navigation" type="button">메뉴</button>
+      <nav id="navigation" aria-label="주요 메뉴">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <a class="button small" href="./resume.pdf" target="_blank" rel="noopener">이력서 PDF <i aria-hidden="true">↓</i></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero container">
+      <p class="eyebrow">Hello, World! I am Yunha Kim</p>
+      <h1>필요한 것을 빠르게 만들고, <span>계속 고칩니다.</span></h1>
+      <p class="lede">사용자에게 필요한 것을 빠르게 만들고 개선하는 개발자, 김윤하입니다. 웹 프론트엔드부터 서비스 구현, 반복 업무를 줄이는 자동화 스크립트까지 — 문제를 직시하고 코드로 답을 찾아냅니다.</p>
+      <div class="actions">
+        <a class="button" href="./resume.pdf" target="_blank" rel="noopener">상세 이력서 (PDF) <i aria-hidden="true">↓</i></a>
+        <a class="button ghost" href="#projects">프로젝트 보러가기</a>
+      </div>
+    </section>
+
+    <div class="marquee" aria-label="사용 기술">
+      <div class="track">
+        <span>JavaScript</span><span>React</span><span>Node.js</span><span>Python</span><span>Tailwind CSS</span><span>Vite</span><span>Git</span><span>Vercel</span><span>Figma</span>
+        <span aria-hidden="true">JavaScript</span><span aria-hidden="true">React</span><span aria-hidden="true">Node.js</span><span aria-hidden="true">Python</span><span aria-hidden="true">Tailwind CSS</span><span aria-hidden="true">Vite</span><span aria-hidden="true">Git</span><span aria-hidden="true">Vercel</span><span aria-hidden="true">Figma</span>
+      </div>
+    </div>
+
+    <section id="about" class="container reveal">
+      <div class="section-head">
+        <p class="eyebrow">About</p>
+        <h2>코드보다 먼저,<br>문제를 봅니다.</h2>
+      </div>
+      <div class="about">
+        <div class="shell"><div class="core">
+          <p class="big">단순히 코드를 작성하는 것을 넘어, 제품이 해결해야 할 본질적인 문제에 집중합니다. 사용자 경험을 해치지 않는 깔끔한 UI와 데이터 흐름의 안정성을 함께 고민하며, 아이디어를 가장 빠르고 견고하게 세상에 내놓는 과정을 즐깁니다.</p>
+        </div></div>
+        <div class="strengths">
+          <article class="shell"><div class="core"><span class="num">01</span><h3>실용적인 웹 구현</h3><p>사용자 중심의 직관적인 인터페이스와 반응형 웹 구현</p></div></article>
+          <article class="shell"><div class="core"><span class="num">02</span><h3>효율성을 높이는 자동화</h3><p>반복 작업을 자동화하여 생산성을 높이는 도구 제작</p></div></article>
+          <article class="shell"><div class="core"><span class="num">03</span><h3>끝까지 완성하는 책임감</h3><p>기획에서 멈추지 않고 배포와 피드백까지 완결 — Ship fast, iterate often</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="container reveal">
+      <div class="section-head">
+        <p class="eyebrow">Featured Projects</p>
+        <h2>직접 만들고<br>배포한 것들</h2>
+      </div>
+      <div class="cards">
+        <article class="card shell wide"><div class="core">
+          <div class="thumb"><img src="./images/projects/arduino-shop.jpg" width="1919" height="935" alt="아두몰 메인 화면: 검색창, 카테고리 메뉴, 아두이노 회로 사진 배너, 개발보드·센서·모터 카테고리 카드"></div>
+          <span class="tag">쇼핑몰</span>
+          <h3>아두이노 부품 쇼핑몰</h3>
+          <p>Next.js 16 (App Router) + Supabase + 토스페이먼츠(테스트 모드)로 만든 아두이노 부품 쇼핑몰.</p>
+          <span class="stack">Next.js 16 (App Router) · Supabase · 토스페이먼츠</span>
+          <div class="links"><a href="https://arduino-shop-roan.vercel.app/" target="_blank" rel="noopener">Live Demo ↗</a><a href="https://github.com/pakuyama/arduino-shop-test" target="_blank" rel="noopener">GitHub Repo ↗</a></div>
+        </div></article>
+        <article class="card shell tall"><div class="core">
+          <div class="thumb"><img src="./images/projects/ohaeng-saju.png" width="1812" height="941" alt="오행 사주 입력 화면: 이름, 성별, 양력·음력 생년월일, 태어난 시간과 장소를 고르고 '내 오행 보기' 버튼을 누르는 폼"></div>
+          <span class="tag">사주 · 재미</span>
+          <h3>오행사주</h3>
+          <p>재미로 보는 오행사주.</p>
+          <span class="stack">Firecrawl · AI 활용</span>
+          <div class="links"><a href="https://pakuyama.github.io/ohaeng-saju/" target="_blank" rel="noopener">Live Demo ↗</a><a href="https://github.com/pakuyama/ohaeng-saju" target="_blank" rel="noopener">GitHub Repo ↗</a></div>
+        </div></article>
+        <article class="card shell wide"><div class="core">
+          <div class="thumb"><img src="./images/projects/draw-guess.png" width="1435" height="909" alt="그려봐! 시작 화면: 닉네임을 입력하고 방을 만들거나 6자리 방 코드로 참가하는 카드"></div>
+          <span class="tag">캐치마인드 · 퀴즈 · 멀티</span>
+          <h3>그려봐! (Draw &amp; Guess)</h3>
+          <p>친구와 함께 그리고 맞히는 그림 퀴즈 게임(캐치마인드).</p>
+          <span class="stack">Python · HTML5 Canvas · AI 활용</span>
+          <div class="links"><a href="https://draw-guess-6jsk.onrender.com/" target="_blank" rel="noopener">Live Demo ↗</a><a href="https://github.com/pakuyama/draw-guess" target="_blank" rel="noopener">GitHub Repo ↗</a></div>
+        </div></article>
+      </div>
+    </section>
+
+    <section id="skills" class="container reveal">
+      <div class="split">
+        <div>
+          <p class="eyebrow">Tech Stack</p>
+          <h2>익숙한 도구로,<br>단순하게.</h2>
+        </div>
+        <div class="skill-list">
+          <div class="shell"><div class="core"><b>Frontend</b><span>JavaScript (ES6+), React, HTML5 / CSS3, Tailwind CSS</span></div></div>
+          <div class="shell"><div class="core"><b>Backend &amp; Scripting</b><span>Node.js, Python — 자동화 · 스크래핑 · 데이터 처리</span></div></div>
+          <div class="shell"><div class="core"><b>Tools &amp; DevOps</b><span>Git / GitHub, Vite, Vercel / GitHub Pages, VS Code, Figma</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="container reveal">
+      <div class="split">
+        <div>
+          <p class="eyebrow">FAQ</p>
+          <h2>자주 묻는 것들</h2>
+        </div>
+        <div>
+          <details>
+            <summary>이력서는 어디서 받을 수 있나요?</summary>
+            <p>상단 메뉴와 첫 화면의 이력서 PDF 버튼을 누르면 새 탭에서 열립니다.</p>
+          </details>
+          <details>
+            <summary>어떤 연락을 받나요?</summary>
+            <p>새로운 프로젝트, 협업 제안, 커피챗 등 언제든 편하게 연락해 주세요.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <section id="contact" class="closing">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>함께 가치 있는 프로젝트를 만들어 볼까요?</h2>
+          <p class="muted">새로운 프로젝트, 협업 제안, 커피챗 등 언제든 편하게 연락해 주세요.</p>
+          <div class="mail"><span id="mail-address">kimyunha@example.com</span><button id="copy-mail" type="button">복사하기</button></div>
+        </div>
+        <form id="contact-form" novalidate>
+          <label for="name">
+            이름
+            <input id="name" name="name" autocomplete="off">
+          </label>
+          <label for="email">
+            이메일
+            <input id="email" name="email" type="email" autocomplete="off">
+          </label>
+          <label for="message">
+            제안 내용
+            <textarea id="message" name="message"></textarea>
+          </label>
+          <button type="submit">입력 확인하기 <i aria-hidden="true">→</i></button>
+          <p id="form-status" class="message" role="status" aria-live="polite"></p>
+          <p class="note">정보는 서버로 전송되지 않습니다. 실제 개인정보 대신 가상 값을 사용하세요.</p>
+        </form>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container footer-row">
+      <span>© 2026 Yunha Kim. Designed &amp; Built with focus on simplicity. · <a href="./react.html">React판 비교</a></span>
+      <nav aria-label="외부 링크"><a href="https://github.com/kimyunha">GitHub</a><a href="https://linkedin.com/in/kimyunha">LinkedIn</a></nav>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/vanilla.js"></script>
+</body>
+</html>

@@ -10,9 +10,9 @@
 | |폼|빈 이름·잘못된 이메일|빈 이름이면 "이름을 입력하세요.", 잘못된 이메일(예: kimyunha@example)이면 "이메일 형식을 확인하세요."가 표시되며 거절됨. 서버로 전송하지 않음| | |
 | |폼|9/10자 또는 변경 후19/20자|9자는 "내용을10자 이상 입력하세요."로 거절되고, 10자는 "입력 확인 완료. 연습 화면이며 전송하지 않았습니다."가 표시됨. 기준을 20으로 바꾼 뒤에는 19자 거절, 20자 성공 안내가 표시됨| | |
 | |React|Hero 수정→build→preview|App.jsx의 Hero 문구(태그라인 "Hello, World! I am Yunha Kim" 등)를 고친 뒤 npm run build → npm run preview 화면에 수정 문구가 그대로 반영됨. projectsData 카드 4개가 같은 내용으로 렌더링됨| | |
-| |공개URL|이미지·CSS·메뉴·폼|썸네일(public/images/projects/)과 resume.pdf가 404 없이 로드됨. 시안 C 색 토큰(배경 #F2F2F0·본문 #18181B·강조 #3B5566·문의 영역 #211E1B)이 적용됨. 모바일 메뉴가 동작함. 폼은 입력 검사 안내만 보여 주고 전송하지 않음| | |
+|https://pakuyama.github.io/portfolio/ · 2026-10-22 12:20|공개URL|이미지·CSS·메뉴·폼|썸네일(public/images/projects/)과 resume.pdf가 404 없이 로드됨. 시안 C 색 토큰(배경 #F2F2F0·본문 #18181B·강조 #3B5566·문의 영역 #211E1B)이 적용됨. 모바일 메뉴가 동작함. 폼은 입력 검사 안내만 보여 주고 전송하지 않음|curl 확인: index·react.html·CSS·JS·프로젝트 이미지 3장 200. resume.pdf 404(파일 없음). 메뉴·폼은 공개 주소에서 미확인| |
 
 AI 요청·수정 범위·diff 검토:
 MCP 실제 연결 서버·도구 이름·주소·시각·실행 결과(없으면 미실행):
 수동 검수 결과: Tab 이동 가능, 모바일 화면 비율 맞음(학생 확인). 휴대폰 실기기 접속은 실패(127.0.0.1 전용 서버).
-공개 상태/미배포 사유:
+공개 상태/미배포 사유: GitHub Pages 공개(2026-10-22 12:20) — https://pakuyama.github.io/portfolio/ (저장소 github.com/pakuyama/portfolio, Actions 배포 성공). resume.pdf 미업로드.
